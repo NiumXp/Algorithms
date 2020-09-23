@@ -17,5 +17,5 @@ def binary_search(array, key, start=0, end=None):
         else:
             return binary_search(array, key, start, end - 1)
 
-resultado = busca_binária(lista, elemento)
+resultado = binary_search(lista, elemento)
 print(resultado)
